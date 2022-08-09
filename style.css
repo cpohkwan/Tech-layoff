@@ -53,13 +53,13 @@ a:hover {
 
 .deck {
   font-family: "Lato", sans-serif; /*sans-serif font*/
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
 .caption,
 .byline {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .byline {
@@ -170,29 +170,7 @@ img {
 .hidden {
   visibility: hidden;
 }
-#scrolly.side-by-side {
-  display: flex;
-}
 
-#scrolly.side-by-side > div {
-  flex-basis: 0;
-  flex-grow: 1;
-  flex-shrink: 1;
-  padding: 0.75em;
-}
-
-#scrolly.side-by-side .scrolly-overlay {
-  margin-top: 70vh;
-  order: 0;
-  /* Change these to adjust sizing options */
-  min-width: 15rem;
-  max-width: 20rem;
-}
-
-#scrolly.side-by-side .sticky-thing {
-  order: 1;
-  flex-grow: 2;
-}
 
 @media (max-width: 800px) {
   .text-container {
