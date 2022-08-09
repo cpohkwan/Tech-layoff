@@ -4,27 +4,31 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Tech Layoffs</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
-        <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/3.0.4/scrollama.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.3.0/d3.min.js"></script>
-        <link rel="stylesheet" href="style.css">
+      
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" /> -->
+      <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/3.0.4/scrollama.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.3.0/d3.min.js"></script>
+      <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="section">
-            <div class="container content">
-                <h1 class="title">Tech Layoffs: What The Data Shows Us</h1>
+            <div class="container">
+                <h1 class="spacing-400">Tech Layoffs: What The Data Shows Us</h1>
+                <h3 class="deck spacing-400"><i>After months of gloomy headlines, I wonder if tech firms have let go of more staff in the first eight months of 2022 than the last two years.</i></As></h3>
+                <p class="byline spacing-400">By Cheong Poh Kwan</p>
 
-                <h3 class="deck"><i>After months of gloomy headlines, I wonder if tech firms have let go of more staff in the first eight months of 2022 than the last two years.</i></As></h3>
-                <p>By Cheong Poh Kwan</p>
+                <p><span class="firstcharacter">T</span>ech workers have been the object of envy for many of us. While I can't be sure if all of them are in the sweet spot of <a href="https://www.betterup.com/blog/what-is-ikigai" target="_blank">ikigai</a>, doing what they love and being really good at what they do, I'm pretty sure they are doing what the world needs - particularly in the rapidly digilitalised post-Covid world, and are paid handsomely for their efforts.</p>
 
-                <p>Tech workers have been the object of envy for many of us. While I can't be sure if all of them are in the sweet spot of <a href="https://www.betterup.com/blog/what-is-ikigai" target="_blank">ikigai</a>, doing what they love and being really good at what they do, I'm pretty sure they are doing what the world needs - particularly in the rapidly digilitalised post-Covid world, and are paid handsomely for their efforts.</p>
-
+                <img src="working.png" alt="A tech worker coding on his computer.">
+                <p class="caption">Tech layoffs have been dominating news headlines in recent months.</p>
+                
                 <p>That sentiment has somewhat changed in the last few months, as mass layoffs and hiring freezes were reported in many tech giants, whose fortune have shrunk considerably after the brutal selloff of tech stocks since early 2022.</p>
                         
                 <p>According to <a href="layoffs.fyi" target="_blank">layoffs.fyi</a>, a tracker maintained by internet entrepreneur Roger Lee, over 64,000 tech workers have been laid off so far this year. This has far exceeded the number in 2021, and is just 20 per cent short of the 2020 figure.</p>
                         
-                <div class="flourish-embed flourish-chart" data-src="visualisation/10838200"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                <div class="flourish-embed flourish-chart spacing-chart" data-src="visualisation/10838200"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
                 <p>The actual casualty count should be higher, as the retrenchment data for some 800 companies in Lee's tracker is not available, so they are not captured in the charts that you see in this story.</p>
                 
@@ -32,17 +36,17 @@
 
                 <p>Sector wise, the worst hit in 2020 were Transportation, Travel and Finance. In 2021, taking the top spots were Consumer, Real Estate and Food - although the number of layoffs was far lower. By 2022, Food, Transporation and Finance had the most layoffs, while the crypto industry, which was previously spared, is also seeing a spike in layoffs.</p>
 
-                <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/10836950"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                <div class="flourish-embed flourish-bar-chart-race spacing-chart" data-src="visualisation/10836950"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
                 <p>Countries wise, the US tech sector has the most number of layoffs in the last two years or so, largely because it's also home to the biggest tech firms and many startups in various stages of fundraising. India and Brazil are next.</p> 
 
                 <p>You can click on the countries or companies in the circles below to find more details.</p>
 
-                <div class="flourish-embed flourish-hierarchy" data-src="visualisation/10847010"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                <div class="flourish-embed flourish-hierarchy spacing-chart" data-src="visualisation/10847010"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-                <p>And here are the five companies that have let go of the most number of staff since 2020. </p>
+                <p>And here are the five companies that have let go of the most number of staff since 2020.</p>
 
-                <div class="scrolling-chart"> 
+                <div class="scrolling-chart spacing-chart"> 
                     <section id="scrolly">
                         <div class="sticky-thing">
                           <div class="ai2html-container">
@@ -700,7 +704,7 @@
 
                 <p>Find out in the table below if the company that you work for or would like to work for has cut any jobs.</p>
 
-                <div class="flourish-embed flourish-table" data-src="visualisation/10838350"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                <div class="flourish-embed flourish-table spacing-chart" data-src="visualisation/10838350"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
             </div>
         </div>
